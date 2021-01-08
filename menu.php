@@ -1,4 +1,6 @@
 <div class="menu">
-    <ul>Home</ul>
-    <ul>Characters</ul>
+    <ul>
+        <a href="index.php"><li>Home</li></a>
+        <a href="Characters.php"><li>Characters</li></a>
+    </ul>
 </div>

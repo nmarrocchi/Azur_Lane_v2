@@ -9,7 +9,6 @@
     <title>Azur Lane - Wiki</title>
 </head>
 <body>
-
 <?php include('menu.php') ?>
     
 </body>
