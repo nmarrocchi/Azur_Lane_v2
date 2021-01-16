@@ -1,6 +1,7 @@
 <?php
 
     require("function.php");
+    $Charnb=0;
 
 ?>
 
@@ -32,12 +33,12 @@
 
                         <tr>
                             <td class="Ships_Name">
-                                <p>Abukuma</p>
+                                <p><?php echo $Ships_List["shipname"]?></p>
                             </td>
                         </tr>
 
                         <tr>
-                            <td class="Ships_Icon">
+                            <td class="Ships_Icon" style="background: <?php Set_RarityColor($Ships_List["ship_rarity"])?>;">
                                 <img class="Ships_Type" src="Img/Type/<?php echo $Ships_List["ship_type"]?>.png" alt="Type">
                                 <img class="Ships_Img" src="Img/Ships/<?php echo $Ships_List["shipname"]?>.png" alt="Ship">
                             </td>
@@ -50,11 +51,12 @@
             
 
             <?php
+            $Charnb ++;
             }
         ?>
     </div>
 
-    
+    <?php echo $Charnb ?>
 </body>
 </html>
 

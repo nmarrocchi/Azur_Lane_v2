@@ -11,7 +11,29 @@
 
     function Set_RarityColor($RarityColor) {
 
-        echo $RarityColor;
+
+        switch ($RarityColor) 
+        {
+            case 'Common':
+                echo 'grey';
+                break;
+            
+                case 'Elite':
+                    echo 'blue';
+                    break;
+
+                    case 'Rare':
+                        echo 'purple';
+                        break;
+                        
+                        case 'Super Rare':
+                            echo 'yellow';
+                            break;
+
+                            case 'Ultra Rare':
+                                echo 'red';
+                                break;
+        }
     }
 
 ?>
