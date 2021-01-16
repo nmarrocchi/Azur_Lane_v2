@@ -5,11 +5,95 @@ a:active {color: white; text-decoration: none;}
 
 body {
     margin: 0%;
+    color: white;
 }
 
 html{
-    background: url(../Img/Background.jpg);
+    background: url(../Img/Background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
+
+.Content {
+    width: 100%;
+    margin: 4% 0%;
+    text-align: center;
+}
+
+
+ /*  Div qui contient toutes les informations d'un personnages   */
+ .Ships{
+    padding: 0%;
+    display: inline-block;
+    margin: 1% 2%;
+    border: solid green 2px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.Ships_Icon{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Ships_Type{
+    float: left;
+    position: absolute;
+    margin: 5px;
+}
+
+.Ships_Img{
+    vertical-align: bottom;
+    width: 144px;
+    height: 192px;
+}
+
+
+
+
+
+/*  Divs qui contient l'image, le nom et le type du personnage. */
+/*
+.Ships_Infos{
+    margin: 0%;
+    text-align: center;
+    border: solid #444 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: max-content;
+    height: max-content;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.Ships_Infos p{
+    color: #eee;
+    margin: 5%;
+    background-color: #444;
+}
+
+.Ships_Img{
+    height: 192px;
+    width: 144px;
+}
+
+.Ships_Type{
+    float: left;
+    position: absolute;
+    margin: 5px;
+}
+
+.Ships_Infos_Table{
+    border: solid #444 3px;
+    border-radius: 0px;
+    border-spacing: 0px;
+    overflow: hidden;
+}
+
+.Ship_Name{
+    background-color: #444;
+}
+
+/*
