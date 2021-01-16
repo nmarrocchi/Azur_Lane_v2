@@ -27,9 +27,21 @@ html{
     padding: 0%;
     display: inline-block;
     margin: 1% 2%;
-    border: solid green 2px;
+    border: solid #444 4px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.Ships_Infos_Table{
+    margin: 0%;
+    padding: 0%;
     border-radius: 15px;
     overflow: hidden;
+    border-collapse: collapse;
+}
+
+.Ships_Name{
+    background-color: #444;
 }
 
 .Ships_Icon{
@@ -44,9 +56,7 @@ html{
 }
 
 .Ships_Img{
-    vertical-align: bottom;
-    width: 144px;
-    height: 192px;
+    vertical-align: middle;
 }
 
 
@@ -58,7 +68,7 @@ html{
 .Ships_Infos{
     margin: 0%;
     text-align: center;
-    border: solid #444 2px;
+    border: solid red 2px;
     border-radius: 10px;
     overflow: hidden;
     width: max-content;
@@ -71,7 +81,7 @@ html{
 .Ships_Infos p{
     color: #eee;
     margin: 5%;
-    background-color: #444;
+    background-color: red;
 }
 
 .Ships_Img{
@@ -86,14 +96,14 @@ html{
 }
 
 .Ships_Infos_Table{
-    border: solid #444 3px;
+    border: solid red 3px;
     border-radius: 0px;
     border-spacing: 0px;
     overflow: hidden;
 }
 
 .Ship_Name{
-    background-color: #444;
+    background-color: red;
 }
 
 /*
